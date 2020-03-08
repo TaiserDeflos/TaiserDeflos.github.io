@@ -1,0 +1,148 @@
+@media screen and (max-width: 1170px){
+	.wrap{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media screen and (max-width: 1150px){
+	.theQuestions__box{
+		grid-template-columns: repeat(3, 1fr);
+		grid-row-gap: 15px;
+	}
+	main{
+		background-position: 0px 83px;
+	}
+	.apartment{
+		background-position: 0px 198px;
+	}
+	.video{
+		background-position: 0 0;
+	}
+
+}
+@media screen and (max-width: 855px){
+	.theQuestions__box{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.looking_item{
+		justify-self: center;
+	}
+	.main__items{
+		padding-top: 60px;
+	}
+	h2{
+		padding-top: 60px;
+	}
+	h3{
+		padding-top: 90px;
+	}
+	.looking{
+		padding-bottom: 90px;
+	}
+	.video{
+		padding-bottom: 90px;
+	}
+	.theQuestions__box{
+		padding-bottom: 90px;
+	}
+}
+@media screen and (max-width: 790px){
+	.main__items{
+		grid-template-columns: 1fr 1fr;
+	}
+	.looking_box {
+    grid-template-columns: 1fr;
+	}
+	.looking_right{
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 690px){
+	.header_top {
+    display: block;
+	}
+	.logo_block{
+		text-align: center;
+	}
+	.nav{
+		margin-top: 20px;
+		justify-self: center
+	}
+	.footer__box{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 15px;
+	}
+	.footer_item:last-child{
+		grid-row-start: 2; 
+  		grid-row-end: 3; 
+	}
+	.header_botton_p1{
+		float: none;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 600px){
+	.logo_block{
+		width: 100%;
+	}
+	.nav{
+		display: block;
+	}
+	h1{
+		font-size: 30px;
+		margin-top: 0px;
+		text-align: center;
+		width: 400px;
+	}
+	.header_botton{
+		display: block;
+	}
+	.header_box{
+		padding-bottom: 15px;
+	}
+	.header_botton_p{
+		text-align: center;
+	}
+	.apartment_box {
+    grid-template-columns: 1fr;
+	}
+    .header_botton {
+    	width: 100%;
+	}
+	button {
+    	width: 180px;
+	}
+	input{
+		width: 180px;
+	}
+}
+@media screen and (max-width: 548px){
+	.nav {
+    	display: none;
+}
+@media screen and (max-width: 500px){
+	.looking_right{
+		grid-template-columns: 1fr;
+	}
+	.theQuestions__box{
+		grid-template-columns: 1fr;
+		grid-gap: 35px 30px;
+	}
+	iframe{
+		width: 260px;
+		height: 120px;
+	}
+	.footer_nav a{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 414px){
+	h1{
+		width: 330px;
+	}
+}
+@media screen and (max-width: 386px){
+	.main__items{
+		grid-template-columns: 1fr;
+	}
+}
