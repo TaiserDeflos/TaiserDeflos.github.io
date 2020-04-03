@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="slider">
+		<div class="slider__item">
+			<img src="img/1.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/1.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/1.png" alt="">
+		</div>
+		<div class="slider__item">
+			<img src="img/1.png" alt="">
+		</div>
+
+	</div>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				arrows:true,
+				dots:true,
+				adaptiveHeight:true,
+				speed:1000
+			});
+		});
+	</script>
+</body>
+</html>
