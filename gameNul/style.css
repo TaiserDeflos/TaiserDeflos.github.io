@@ -1,0 +1,38 @@
+body{
+	background-image: url(kubik.png);
+}
+.block1{
+	background-color: rgba(255,255,0, 0.8);
+	padding-top: 30px;
+	width: 500px;
+	height: 200px;
+	margin: 50px auto;
+	color: black;
+	padding-left: 30px;
+}
+.block2{
+	margin-top: 50px;
+	padding-top: 30px;
+	background-color: rgba(0,0,255, 0.8);
+	width: 500px;
+	height: 200px;
+	margin: 50px auto;
+	color: white;
+	padding-left: 30px;
+}
+@media(max-width: 550px){
+	h1{
+		font-size: 25px;
+	}
+	p{
+		font-size: 20px;
+	}
+	input{
+		height: 30px;
+		width: 180px;
+	}
+	button{
+		height: 35px;
+		width: 100px;
+	}
+}
