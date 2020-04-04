@@ -9,7 +9,7 @@ let playerFirst = document.getElementById('inputFirst').value;
 console.log(playerTwo);
 console.log(playerFirst);
 if(playerTwo == playerFirst){
-	alert("Вы угадали!");
+	alert("Ты угадали!");
 }
 else if(playerTwo > playerFirst){
 	alert("Ты ввёл больше, чем нужно!")
